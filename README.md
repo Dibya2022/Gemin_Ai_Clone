@@ -15,7 +15,7 @@
 
 ## 🛠️ Installation
 ```bash
-📥 git clone https://github.com/yourusername/gemini-clone.git
+📥 git clone [https://github.com/yourusername/gemini-clone.git](https://github.com/Dibya2022/Gemin_Ai_Clone.git)
 📂 cd gemini-clone
 📦 npm install
 ▶️ npm start
