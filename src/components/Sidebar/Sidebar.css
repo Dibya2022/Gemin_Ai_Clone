@@ -1,0 +1,95 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px; /* Collapsed width */
+  height: 100vh;
+  background-color: #f0f4f9;
+  padding: 20px;
+  transition: width 0.3s;
+}
+
+.sidebar.expanded {
+  width: 230px; /* Expanded width */
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.new-chat {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; Center the content */
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #e0e0e0; /* Add background color */
+  border-radius: 24px; /* Add border radius */
+  padding: 10px; /* Add padding */
+  width: 100%; /* Ensure it takes full width */
+  height: 40px; /* Set a fixed height */
+}
+
+.new-chat img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.sidebar.collapsed .new-chat {
+  justify-content: center; Center the icon when collapsed
+  padding: 0; /* Remove padding when collapsed */
+}
+
+.sidebar.collapsed .new-chat img {
+  margin-right: 0; /* Remove margin when collapsed */
+}
+
+.recent {
+  margin-top: 20px;
+}
+
+.recent-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.recent-entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.recent-entry img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar.collapsed .new-chat p,
+.sidebar.collapsed .recent,
+.sidebar.collapsed .bottom-item p {
+  display: none;
+}

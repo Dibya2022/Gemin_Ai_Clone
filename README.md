@@ -1,29 +1,8 @@
-# 🌟 Gemini Clone 🤖
+# React + Vite
 
-**Gemini Clone** is a React-based chatbot app using the Google Gemini API for smart, dynamic conversations. 🧠💬 It offers a clean user interface with smooth typing effects, sticker support 🎨, emojis 😊, and multimedia sharing 📷 for an engaging chat experience.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
-- 🚀 Seamless integration with Google Gemini API
-- ⚛️ React component-based architecture
-- 🎉 Sticker support for fun and expressive chats
-- 😀 Emoji integration and 📤 multimedia sharing
-- 🎨 Custom CSS for a modern and user-friendly design
+Currently, two official plugins are available:
 
-## 🔮 Future Enhancements
-- 🕒 Conversation history and 🎨 personalized themes
-- 🔍 Image search, 🌍 language translation, and 🤖 AI content suggestions
-
-## 🛠️ Installation
-```bash
-📥 git clone [https://github.com/yourusername/gemini-clone.git](https://github.com/Dibya2022/Gemin_Ai_Clone.git)
-📂 cd gemini-clone
-📦 npm install
-▶️ npm start
-```
-
-## 📝 License
-This project is open-source and licensed under the MIT License. 📄
-
----
-
-🤝 Contributions are welcome! Feel free to fork the repository and submit pull requests. 🚀
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
